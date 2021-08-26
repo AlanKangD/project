@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class MainClass {
 	public static void main(String[] args) {
+		soomin_test_class soomin = new soomin_test_class();
 		Scanner sc = new Scanner(System.in);
 		int num;
 		while(true) {
@@ -11,7 +12,9 @@ public class MainClass {
 			num = sc.nextInt();
 			switch(num) {
 			case 1: break;
-			case 2: break;
+			case 2: 
+				soomin.one();			
+				break;
 			case 3: break;
 			case 4: break;
 			case 5: break;
